@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-size: 16px;
-  /* margin: 0 auto; */
+  margin: 0px;
 }
 img {
   width: 100%;
@@ -25,12 +25,45 @@ li {
 
 body {
 background-color: #F4F4F4;
+text-align: center;
 }
 main {
-  background-color: #FFFFFF;
   display: inline-block;
+  float: left;
+  width: 50%;
 }
 aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%
+
+}
+article {
+  margin: 20px;
+  border: 1pt solid black;
   background-color: #FFFFFF;
-  display: inline-block;
+}
+.kotha {
+  border: 6pt solid white;
+  border-radius: 100%;
+  width: 60%;
+  position: relative;
+  top: 30%;
+  right: 17%;
+  z-index: 2;
+}
+.footer {
+  width: 211px;
+  height: 221px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.instagram {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
