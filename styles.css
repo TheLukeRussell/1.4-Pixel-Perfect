@@ -96,7 +96,16 @@ article {
 i {
   margin: 0 7px;
   font-size: 14px;
-
+}
+a {
+  color: #AAAAAA;
+  text-decoration: none;
+}
+a:hover {
+  color: #D17255;
+}
+.nav-bar-link {
+  color: black;
 }
 /* li::after {
     content: "";
