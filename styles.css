@@ -45,18 +45,17 @@ main {
 }
 aside {
   display: inline-block;
-  max-width: 27.5%
-
+  max-width: 27.5%;
 }
 article {
   margin: 40px 30px;
   /* border: 1pt solid black; */
   background-color: #FFFFFF;
-  text-align: center;
 }
 .article-footer {
   color: #AAA;
   font-size: 14px;
+  font-style: italic;
   display: inline-block;
   position: absolute;
   left: 10%;
@@ -80,7 +79,10 @@ margin-left: 50%;
   background-position: center;
   background-attachment: scroll;
 }
-
+section {
+  position: absolute;
+  left: -2px;
+}
 .footer img {
   width: 12.5%;
   height: 12.5%;
@@ -113,6 +115,53 @@ a:hover {
 }
 .nav-bar-link {
   color: black;
+}
+h1 {
+  color: #D17255;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Lato'
+}
+h2 {
+  font-size: 30px;
+  font-family: 'Oswald';
+  font-weight: bolder;
+  margin: 0 auto;
+}
+aside h2 {
+  font-size: 21px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+h3 {
+  font-family: 'Oswald';
+  transform: scale(1.1, 1);
+  font-size: 15px;
+  display: inline;
+  padding: 20px;
+}
+div footer {
+  color: grey;
+  font-size: 14px;
+  font-style: italic;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1pt solid #F0F0F0
+}
+button {
+  font-family: 'Lato';
+  background: none;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #D17255;
+  padding: 10px 20px;
+  border: 1pt solid #D17255;
+  transform: scale(1.1, 1);
+}
+button:hover {
+  background-color: #D17255;
+  color: #FFFFFF;
 }
 /* li::after {
     content: "";
