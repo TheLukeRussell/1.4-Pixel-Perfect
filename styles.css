@@ -214,15 +214,16 @@ button:hover {
   padding-bottom: 4.5%;
 }
 .footer-icons-kotha {
-  padding-bottom: 10.5%;
+  padding-bottom: 7%;
+  margin: 0;
   text-align: center;
 }
 .footer-icons-kotha i {
-  margin: 0 4px;
-}
-.footer-icons-kotha a {
   border: 1pt grey solid;
   border-radius: 100%;
+  margin: 0;
+}
+.footer-icons-kotha a {
 }
 .popular-posts {
   letter-spacing: 1px;
