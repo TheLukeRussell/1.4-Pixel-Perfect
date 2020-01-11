@@ -364,18 +364,53 @@ aside article {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 95%;
-  width: 48%;
+  height: 30.7%;
+  width: 46.3%;
   opacity: 0;
   transition: .5s ease;
   background-color: #D17255;
+  margin: 1.5%;
 }
 
 .container:hover .overlay {
-  opacity: .6;
+  opacity: .75;
 }
 
 .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.footer .container {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.footer .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 12.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #D17255;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .container:hover .overlay {
+  opacity: .75;
+}
+
+.footer .text {
   color: white;
   font-size: 20px;
   position: absolute;
