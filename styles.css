@@ -154,7 +154,9 @@ h2 {
   font-weight: bolder;
   margin: 0 auto;
   letter-spacing: 1.1px;
-
+}
+main h2 {
+  margin-bottom: 25px;
 }
 aside h2 {
   font-size: 21.25px;
@@ -284,12 +286,10 @@ aside article {
   margin: 1.5%;
 }
 .footer {
-  position: absolute;
-  top: 388.3%;
+  margin-top: 17%;
 }
 .footer img {
   width: 12.5%;
-  height: 30%;
   float: left;
 }
 /* li::after {
