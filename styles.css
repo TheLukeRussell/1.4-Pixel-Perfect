@@ -18,6 +18,7 @@ nav {
 }
 ul {
   list-style: none;
+  padding: 0;
 }
 
 li {
@@ -43,7 +44,7 @@ background-color: #F4F4F4;
 
 main {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 20px;
   max-width: 56.9%;
   text-align: center;
   padding: 10px;
@@ -57,10 +58,10 @@ aside {
   max-width: 28.8%;
   position: relative;
   left: 62.95%;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 article {
-  margin: 40px 30px;
+  margin: 35px 30px;
   /* border: 1pt solid black; */
   background-color: #FFFFFF;
 }
@@ -92,6 +93,7 @@ main p {
 }
 aside p {
   text-align: center;
+  margin-bottom: 8%;
 }
 
 .kotha {
@@ -111,26 +113,12 @@ aside p {
   background-repeat: no-repeat;
   background-size: 420px 213px;
   padding-top: 50%;
-  padding-bottom: 13%;
-  margin-bottom: 9.5%;
 }
 section {
   position: absolute;
   left: -2px;
 }
-.footer img {
-  width: 12.5%;
-  height: 12.5%;
-  float: left;
-}
-.instagram img{
-  display: flex;
-  justify-content: block;
-  /* flex-direction: column;
-  flex-wrap: wrap; */
-  height: 9.5%;
-  width: 9.5%;
-}
+
 .icons {
   color: #AAAAAA;
   display: inline-block;
@@ -158,6 +146,7 @@ h1 {
   font-weight: bold;
   font-family: 'Lato';
   margin-top: 5%;
+  margin-bottom: 1.5%;
 }
 h2 {
   font-size: 28px;
@@ -165,22 +154,19 @@ h2 {
   font-weight: bolder;
   margin: 0 auto;
   letter-spacing: 1.1px;
-  padding-bottom: 20px;
+
 }
 aside h2 {
   font-size: 21.25px;
   font-weight: bold;
-  padding: 20px;
   text-align: center;
   letter-spacing: 1px;
-  padding-top: 35px;
-
+  padding-bottom: 31px;
+  padding-top: 5px;
 }
+
 h3 {
   font-family: 'Oswald';
-  transform: scale(1.1, 1);
-  font-size: 15px;
-  display: inline;
 }
 h4 {
   font-family: 'Oswald';
@@ -190,9 +176,9 @@ h4 {
   padding: 20px;
 }
 div footer {
+  font-family: 'Lato';
   color: grey;
   font-size: 14px;
-  font-style: italic;
   margin: 50%;
   padding: 20px;
   border-bottom: 1pt solid #F0F0F0
@@ -222,24 +208,90 @@ button:hover {
 .kotha-name {
   padding-top: 97px;
   letter-spacing: 1px;
+  padding-bottom: 4.5%;
+}
+.footer-icons-kotha {
+margin: auto;
+text-align: center;
+padding-bottom: 10.5%;
 }
 .footer-icons-kotha a {
-  display: inline-block;
-  position: relative;
+  border: 1pt grey solid;
+  border-radius: 100%;
 }
 .popular-posts {
-margin: 10px 35px;
+  letter-spacing: 1px;
+  padding: 7%;
+  margin: 40px 30px;
+  margin-top: 10%;
+  padding-top: 6%;
+  padding-bottom: .1%;
+  margin-bottom: 45px;
+}
+.popular-posts footer {
+  margin: auto;
+  font-size: 14px;
+  padding: 0;
+  padding-bottom: 7%;
+  margin-bottom: 5%;
 }
 main article {
   padding-bottom: 1.8%;
   margin-bottom: 6.3%;
 }
-
-.roses {
-
+aside article {
+  padding: 0;
 }
-
-
+.ice-cream-cone {
+  height: 234px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('/images/icecream.jpg');
+  background-position: center;
+  back
+}
+.mango-bar {
+  height: 234px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('/images/mango_bar.jpg');
+  background-position: center;
+}
+.black-tea {
+  height: 234px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('/images/herbal-tea.jpg');
+  background-position: center;
+}
+.latest-posts {
+  padding: 7%;
+  margin: 40px 30px;
+}
+.latest-posts img {
+  width: 35%;
+}
+.latest-posts footer {
+  margin: 0 auto;
+  padding: 0;
+}
+.instagram {
+  padding: 7%;
+  margin: 40px 30px;
+}
+.instagram img{
+  width: 46%;
+  margin: 1.5%;
+}
+.footer {
+  position: absolute;
+  top: 388.3%;
+}
+.footer img {
+  width: 12.5%;
+  height: 30%;
+  float: left;
+}
 /* li::after {
     content: "";
     display: table;
