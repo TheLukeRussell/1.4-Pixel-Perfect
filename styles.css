@@ -27,7 +27,9 @@ li {
   font-family: 'Lato';
   display: inline-block;
 }
-
+ul.footer-icons {
+  margin-left: 80%
+}
 .nav-bar {
   display: inline-block;
   margin-left: 6.9%;
@@ -47,7 +49,7 @@ body {
 main {
   display: inline-block;
   margin-top: 20px;
-  max-width: 56.9%;
+  max-width: 57.5%;
   text-align: center;
   padding: 10px;
   position: absolute;
@@ -57,9 +59,9 @@ main {
 
 aside {
   display: inline-block;
-  max-width: 28.8%;
+  max-width: 28.9%;
   position: relative;
-  left: 62.95%;
+  left: 63.6%;
   margin-top: 30px;
 }
 
@@ -75,14 +77,18 @@ article {
   font-style: italic;
   display: inline-block;
   position: absolute;
-  left: 10%;
+  left: 4%;
+  text-align: right;
 }
 
 .footer-icons {
   display: inline-block;
   margin-left: 50%;
 }
-
+main footer {
+padding-top: 1%;
+margin-bottom: 2%;
+}
 p {
   font-family: 'Lato';
   padding-left: 6%;
@@ -220,7 +226,7 @@ button {
   border: 1pt solid #D17255;
   letter-spacing: 1px;
   margin-bottom: 1%;
-  margin-top: .2%;
+  margin-top: .1%;
 
 }
 
@@ -228,7 +234,6 @@ form {
   padding: 4.2%;
   padding-top: 4.05%;
   padding-bottom: 4.7%;
-  margin-bottom: 3%;
   border-bottom: 1.12pt #E7E7E7 solid;
   margin-right: 5.4%;
   margin-left: 5.4%;
@@ -246,19 +251,15 @@ button:hover {
 }
 
 .footer-icons-kotha {
-  padding-bottom: 7%;
+  padding-bottom: 12%;
   margin: 0;
   text-align: center;
 }
 
-.footer-icons-kotha i {
-  border: 1pt grey solid;
+.footer-icons-kotha a {
+  border: 1pt black solid;
   border-radius: 100%;
-  margin: 0;
 }
-
-.footer-icons-kotha a {}
-
 .popular-posts {
   letter-spacing: 1px;
   padding: 7%;
@@ -273,7 +274,7 @@ button:hover {
   margin: auto;
   font-size: 14px;
   padding: 0;
-  padding-bottom: 7%;
+  padding-bottom: 6%;
   margin-bottom: 5%;
 }
 
@@ -315,7 +316,7 @@ aside article {
   padding: 7%;
   margin: 40px 30px;
   padding-bottom: 13%;
-  margin-right: 0;
+  margin-right: 27px;
 }
 
 .latest-posts img {
@@ -333,6 +334,7 @@ aside article {
   width: 100%;
   height: 176px;
   margin: 1.5%;
+  padding: 5px;
 }
 
 .instagram h2 {
@@ -348,7 +350,7 @@ aside article {
   padding: 0;
 }
 .footer {
-  margin-top: 13.15%;
+  margin-top: 11%;
 }
 
 .footer img {
