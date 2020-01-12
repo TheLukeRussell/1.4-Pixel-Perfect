@@ -352,7 +352,7 @@ aside article {
 }
 
 .footer img {
-  width: 12.5%;
+  width: 100%;
   float: left;
 }
 .container {
@@ -381,7 +381,7 @@ aside article {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -390,8 +390,10 @@ aside article {
 }
 .footer .container {
   position: relative;
-  width: 100%;
+  width: 12.29%;
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .footer .overlay {
@@ -401,7 +403,7 @@ aside article {
   left: 0;
   right: 0;
   height: 100%;
-  width: 12.5%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #D17255;
@@ -412,7 +414,9 @@ aside article {
 .footer .container:hover .overlay {
   opacity: .75;
 }
-
+div.text i {
+  margin: 0;
+}
 .footer .text {
   color: white;
   font-size: 20px;
