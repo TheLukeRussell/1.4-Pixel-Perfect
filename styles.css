@@ -257,8 +257,12 @@ button:hover {
 }
 
 .footer-icons-kotha a {
-  border: 1pt black solid;
+  border: 1pt grey solid;
   border-radius: 100%;
+}
+.footer-icons-kotha a:hover {
+  background-color: #D17255;
+  color: white;
 }
 .popular-posts {
   letter-spacing: 1px;
@@ -317,6 +321,7 @@ aside article {
   margin: 40px 30px;
   padding-bottom: 13%;
   margin-right: 27px;
+  margin-bottom: 16%;
 }
 
 .latest-posts img {
@@ -334,7 +339,6 @@ aside article {
   width: 100%;
   height: 176px;
   margin: 1.5%;
-  padding: 5px;
 }
 
 .instagram h2 {
@@ -348,6 +352,9 @@ aside article {
   border-bottom: 1pt lightgrey solid;
   margin: 0 auto;
   padding: 0;
+  position: absolute;
+  padding-bottom: 12.25%;
+  width: 70%;
 }
 .footer {
   margin-top: 11%;
