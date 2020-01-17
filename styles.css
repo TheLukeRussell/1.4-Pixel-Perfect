@@ -242,6 +242,7 @@ form {
 button:hover {
   background-color: #D17255;
   color: #FFFFFF;
+  transition: .5s ease;
 }
 
 .kotha-name {
@@ -256,11 +257,14 @@ button:hover {
   text-align: center;
 }
 
-.footer-icons-kotha a {
+.footer-icons-kotha i {
   border: 1pt grey solid;
   border-radius: 100%;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 12px;
 }
-.footer-icons-kotha a:hover {
+.footer-icons-kotha i:hover {
   background-color: #D17255;
   color: white;
 }
