@@ -14,8 +14,6 @@ nav {
   border-bottom: 1.12pt #E7E7E7 solid;
   background-color: #F8F8F8;
   padding-bottom: 10px;
-  margin: 0 2.75%;
-  /* vertical-align: middle; */
 }
 
 ul {
@@ -32,7 +30,7 @@ ul.footer-icons {
 }
 .nav-bar {
   display: inline-block;
-  margin-left: 6.9%;
+  margin-left: 9.2%;
 }
 
 nav .nav-bar li {
@@ -107,7 +105,7 @@ main p {
 
 aside p {
   text-align: center;
-  margin-bottom: 8%;
+  margin-bottom: 7%;
 }
 
 .kotha {
@@ -140,12 +138,14 @@ section {
   display: inline-block;
   float: right;
   font-size: 16px;
-  margin-right: 7.3%;
+  margin-right: 8.5%;
 }
 
 i {
-  font-size: 14px;
-  margin: 0 7.5px;
+  /* font-size: 14px; */
+  /* margin: 0 2.5px; */
+  height: 35px;
+  width: 35px;
 }
 
 a {
@@ -258,7 +258,7 @@ button:hover {
 }
 
 .footer-icons-kotha i {
-  border: 1pt grey solid;
+  border: 1pt rgb(185, 185, 185) solid;
   border-radius: 100%;
   padding: 10px;
   margin: 0 5px;
@@ -321,16 +321,39 @@ aside article {
 }
 
 .latest-posts {
-  padding: 7%;
-  margin: 40px 30px;
-  padding-bottom: 13%;
-  margin-right: 27px;
-  margin-bottom: 16%;
+  /* padding: 7%; */
+  /* margin: 40px 30px; */
+  /* padding-bottom: 13%; */
+  /* margin-right: 27px; */
+  /* margin-bottom: 16%; */
 }
 
 .latest-posts img {
-  width: 35%;
-  padding-top: 5%;
+  width: 135px;
+  height: 100px;
+  /* padding-top: 5%; */
+}
+
+#latest-title {
+  padding-top: 32px;
+}
+
+.post-container {
+  margin: 12px;
+  padding: 12px;
+  height: 136px;
+  /* padding-bottom: 20px; */
+}
+
+h5 {
+  display: inline;
+  margin: 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.post-container:not(:last-child) {
+  border-bottom: solid 1pt black;
 }
 
 .instagram {
@@ -368,7 +391,7 @@ aside article {
   width: 100%;
   float: left;
 }
-.container {
+.containers {
   position: relative;
   width: 48%;
   display: inline-block;
@@ -388,7 +411,7 @@ aside article {
   margin: 1.5%;
 }
 
-.container:hover .overlay {
+.containers:hover .overlay {
   opacity: .75;
 }
 
@@ -401,7 +424,7 @@ aside article {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.footer .container {
+.footer .containers {
   position: relative;
   width: 12.29%;
   display: inline-block;
@@ -424,7 +447,7 @@ aside article {
   padding: 0;
 }
 
-.footer .container:hover .overlay {
+.footer .containers:hover .overlay {
   opacity: .75;
 }
 div.text i {
